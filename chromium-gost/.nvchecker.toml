@@ -1,0 +1,7 @@
+[Chromium-Gost]
+source = "apt"
+mirror = "https://github.com/deemru/Chromium-Gost/releases/download/148.0.7778.216/"
+pkg = "Chromium-Gost"
+suite = "stable"
+repo = "main"
+strip_release = true
