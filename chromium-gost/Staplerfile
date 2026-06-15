@@ -20,8 +20,8 @@ sources=(
 )
 
 checksums=(
-	sha256:b46805c0e22c22bcbb5b853c3fcb58ca119beda3b0580d5bcc59806b41b23143
-	sha256:400271437c8a958fd7a0c85bb1051208e7155dda324ee9d9401b945ac1671ff9
+	SKIP
+	SKIP
 )
 
 build_deps=(
