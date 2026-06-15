@@ -9,7 +9,7 @@ architectures=('amd64')
 homepage="https://github.com/deemru/chromium-gost/"
 maintainer="Alexey Kamaev <a1exak@outlook.com>"
 license=('Multiple, see https://chrome.google.com/')
-appstream_app_id='Chromium-Gost'
+appstream_app_id='com.github.deemru.Chromium-Gost'
 nonfree=1
 nonfree_url="https://github.com/deemru/chromium-gost/"
 
@@ -60,8 +60,8 @@ package() {
 	# Remove the Debian Cron job, duplicate product logos and menu directory
 	rm -r \
 		"$pkgdir"/etc/cron.daily/ \
-		"$pkgdir"/opt/google/chrome/cron/ \
-		"$pkgdir"/opt/google/chrome/product_logo_*.png
+		"$pkgdir"/opt/chromium-gost/cron/ \
+		"$pkgdir"/opt/chromium-gost/product_logo_*.png
 }
 
 files() {
@@ -74,7 +74,7 @@ files() {
 	files-find-doc google-chrome-$_channel
 
 	files-find \
-		"/opt/google/**/*" \
+		"/opt/chromium-gost/**/*" \
 		"/usr/share/appdata/*" \
 		"/usr/share/gnome-control-center/default-apps/*" \
 		"/usr/share/icons/hicolor/*/apps/*" \
