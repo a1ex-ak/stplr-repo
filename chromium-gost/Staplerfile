@@ -68,8 +68,8 @@ files() {
 	files-find-binary google-chrome-$_channel
 
 	files-find-desktop \
-		com.google.Chrome.desktop \
-		google-chrome.desktop
+		chromium-gost.desktop \
+		chromium-gost.desktop
 
 	files-find-doc google-chrome-$_channel
 
